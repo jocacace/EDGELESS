@@ -1,0 +1,59 @@
+{
+    "functions": [        
+        {
+            "name": "http_extractor",
+            "class_specification": {
+                "id": "http_extractor",
+                "function_type": "RUST_WASM",
+                "version": "0.1",
+                "code": "../edgeless/functions/http_extractor/http_extractor.wasm",
+                "outputs": [
+                    "out"
+                ]
+            },
+            "output_mapping": {
+                "out": "python-redis"
+            },
+            "annotations": {}
+        },
+        {
+            "name": "python-redis",
+            "class_specification": {
+                "id": "python-redis",
+                "function_type": "CONTAINER",
+                "version": "0.1",
+                "code": "container:python-redis:latest",
+                "outputs": [
+                    "output"
+                ]
+            },
+            "output_mapping": {
+                "output": "redis"
+            },
+            "annotations": {}
+        }
+    ],
+    "resources": [
+        {
+            "name": "http-ingress",
+            "class_type": "http-ingress",
+            "output_mapping": {
+                "new_request": "http_extractor"
+            },
+            "configurations": {
+                "host": "demo.edgeless.com",
+                "methods": "POST"
+            }
+        },
+        {
+            "name": "redis",
+            "class_type": "redis",
+            "output_mapping": {},
+            "configurations": {
+                "url": "redis://127.0.0.1:6379/",
+                "key": "from-python"
+            }
+        }
+    ],
+    "annotations": {}
+}

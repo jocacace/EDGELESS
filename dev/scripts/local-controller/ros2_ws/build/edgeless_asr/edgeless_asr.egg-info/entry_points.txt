@@ -1,0 +1,4 @@
+[console_scripts]
+asr = edgeless_asr.asr:main
+audio2http = edgeless_asr.audio2http:main
+get_audio = edgeless_asr.get_audio:main

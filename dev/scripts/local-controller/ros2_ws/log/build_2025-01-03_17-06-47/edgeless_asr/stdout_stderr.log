@@ -1,0 +1,30 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` and ``easy_install``.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://github.com/pypa/setuptools/issues/917 for details.
+        ********************************************************************************
+
+!!
+  easy_install.initialize_options(self)
+running egg_info
+writing edgeless_asr.egg-info/PKG-INFO
+writing dependency_links to edgeless_asr.egg-info/dependency_links.txt
+writing entry points to edgeless_asr.egg-info/entry_points.txt
+writing requirements to edgeless_asr.egg-info/requires.txt
+writing top-level names to edgeless_asr.egg-info/top_level.txt
+reading manifest file 'edgeless_asr.egg-info/SOURCES.txt'
+writing manifest file 'edgeless_asr.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jcacace/dev/EDGELESS/EDGELESS/dev/scripts/local-controller/ros2_ws/install/edgeless_asr/lib/python3.12/site-packages/edgeless-asr.egg-link (link to .)
+Installing asr script to /home/jcacace/dev/EDGELESS/EDGELESS/dev/scripts/local-controller/ros2_ws/install/edgeless_asr/lib/edgeless_asr
+Installing audio2http script to /home/jcacace/dev/EDGELESS/EDGELESS/dev/scripts/local-controller/ros2_ws/install/edgeless_asr/lib/edgeless_asr
+Installing get_audio script to /home/jcacace/dev/EDGELESS/EDGELESS/dev/scripts/local-controller/ros2_ws/install/edgeless_asr/lib/edgeless_asr
+
+Installed /home/jcacace/dev/EDGELESS/EDGELESS/dev/scripts/local-controller/ros2_ws/build/edgeless_asr
+running symlink_data

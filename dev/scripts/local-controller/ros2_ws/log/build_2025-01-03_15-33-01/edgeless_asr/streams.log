@@ -1,0 +1,31 @@
+[0.802s] Invoking command in '/home/jcacace/dev/EDGELESS/EDGELESS/dev/scripts/local-controller/ros2_ws/build/edgeless_asr': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jcacace/dev/EDGELESS/EDGELESS/dev/scripts/local-controller/ros2_ws/build/edgeless_asr/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jcacace/dev/EDGELESS/EDGELESS/dev/scripts/local-controller/ros2_ws/install/edgeless_asr/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jcacace/dev/EDGELESS/EDGELESS/dev/scripts/local-controller/ros2_ws/build/edgeless_asr/build --no-deps symlink_data
+[1.118s] running develop
+[1.118s] /usr/lib/python3/dist-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[1.118s] !!
+[1.118s] 
+[1.118s]         ********************************************************************************
+[1.119s]         Please avoid running ``setup.py`` and ``easy_install``.
+[1.119s]         Instead, use pypa/build, pypa/installer or other
+[1.119s]         standards-based tools.
+[1.119s] 
+[1.119s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[1.119s]         ********************************************************************************
+[1.120s] 
+[1.120s] !!
+[1.120s]   easy_install.initialize_options(self)
+[1.323s] running egg_info
+[1.343s] writing edgeless_asr.egg-info/PKG-INFO
+[1.344s] writing dependency_links to edgeless_asr.egg-info/dependency_links.txt
+[1.344s] writing entry points to edgeless_asr.egg-info/entry_points.txt
+[1.344s] writing requirements to edgeless_asr.egg-info/requires.txt
+[1.344s] writing top-level names to edgeless_asr.egg-info/top_level.txt
+[1.384s] reading manifest file 'edgeless_asr.egg-info/SOURCES.txt'
+[1.385s] writing manifest file 'edgeless_asr.egg-info/SOURCES.txt'
+[1.407s] running build_ext
+[1.407s] Creating /home/jcacace/dev/EDGELESS/EDGELESS/dev/scripts/local-controller/ros2_ws/install/edgeless_asr/lib/python3.12/site-packages/edgeless-asr.egg-link (link to .)
+[1.408s] Installing asr script to /home/jcacace/dev/EDGELESS/EDGELESS/dev/scripts/local-controller/ros2_ws/install/edgeless_asr/lib/edgeless_asr
+[1.408s] Installing get_audio script to /home/jcacace/dev/EDGELESS/EDGELESS/dev/scripts/local-controller/ros2_ws/install/edgeless_asr/lib/edgeless_asr
+[1.408s] 
+[1.408s] Installed /home/jcacace/dev/EDGELESS/EDGELESS/dev/scripts/local-controller/ros2_ws/build/edgeless_asr
+[1.409s] running symlink_data
+[1.448s] Invoked command in '/home/jcacace/dev/EDGELESS/EDGELESS/dev/scripts/local-controller/ros2_ws/build/edgeless_asr' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jcacace/dev/EDGELESS/EDGELESS/dev/scripts/local-controller/ros2_ws/build/edgeless_asr/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jcacace/dev/EDGELESS/EDGELESS/dev/scripts/local-controller/ros2_ws/install/edgeless_asr/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jcacace/dev/EDGELESS/EDGELESS/dev/scripts/local-controller/ros2_ws/build/edgeless_asr/build --no-deps symlink_data

@@ -1,0 +1,51 @@
+[general]
+node_id = "8deb7ab2-8adb-439e-aac2-fda1c4294f8b"
+
+agent_url = "http://127.0.0.1:7021"
+agent_url_announced = ""
+invocation_url = "http://127.0.0.1:7002"
+invocation_url_announced = ""
+invocation_url_coap = "coap://127.0.0.1:7002"
+invocation_url_announced_coap = ""
+orchestrator_url = "http://127.0.0.1:7011"
+
+[telemetry]
+metrics_url = "http://127.17.0.1:7003"
+log_level = "info"
+performance_samples = true
+
+[wasm_runtime]
+enabled = true
+
+[container_runtime]
+enabled = true
+guest_api_host_url = "http://172.17.0.1:7100"
+
+[resources]
+http_ingress_url = "http://127.0.0.1:7035"
+http_ingress_provider = "http-ingress-1"
+http_egress_provider = "http-egress-1"
+file_log_provider = "file-log-1"
+redis_provider = "redis-1"
+dda_provider = "dda-1"
+kafka_egress_provider = "kafka-egress-1"
+
+[resources.ollama_provider]
+host = "localhost"
+port = 11434
+messages_number_limit = 30
+provider = "ollama-1"
+
+[user_node_capabilities]
+num_cpus = 12
+model_name_cpu = "13th Gen Intel(R) Core(TM) i7-1365U"
+clock_freq_cpu = 1912
+num_cores = 10
+mem_size = 31464
+labels = []
+is_tee_running = false
+has_tpm = false
+disk_tot_space = 958237
+num_gpus = 0
+model_name_gpu = ""
+mem_size_gpu = 0

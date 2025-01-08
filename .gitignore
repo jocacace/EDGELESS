@@ -1,0 +1,6 @@
+dev/edgeless
+dev/ros2_ws
+dev/EDGELESS/EDGELESS/dev/scripts/local-controller/ros2_ws/build
+dev/EDGELESS/EDGELESS/dev/scripts/local-controller/ros2_ws/log
+dev/EDGELESS/EDGELESS/dev/scripts/local-controller/ros2_ws/install
+dev/scripts/local-controller/ros2_ws/src/edgeless_asr/weights

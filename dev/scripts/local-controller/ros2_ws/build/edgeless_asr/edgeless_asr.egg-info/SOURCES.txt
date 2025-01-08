@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+edgeless_asr/__init__.py
+edgeless_asr/asr.py
+edgeless_asr/audio2http.py
+edgeless_asr/get_audio.py
+edgeless_asr.egg-info/PKG-INFO
+edgeless_asr.egg-info/SOURCES.txt
+edgeless_asr.egg-info/dependency_links.txt
+edgeless_asr.egg-info/entry_points.txt
+edgeless_asr.egg-info/requires.txt
+edgeless_asr.egg-info/top_level.txt
+edgeless_asr.egg-info/zip-safe
+resource/edgeless_asr

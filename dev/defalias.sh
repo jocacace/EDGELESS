@@ -1,0 +1,7 @@
+alias init_docker="newgrp docker"
+alias edgeless_cd="cd /home/user/dev/edgeless"
+alias start_edgeless="edgeless_cd && RUST_LOG=info target/debug/edgeless_inabox"
+alias remove_containers="docker rm -v -f $(docker ps -qa) --force"
+alias list_dockers="docker ps -a"
+alias get_logs="docker container logs $1"
+alias clean_docker="docker system prune"
